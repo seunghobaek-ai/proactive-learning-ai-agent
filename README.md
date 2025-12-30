@@ -65,17 +65,20 @@
 ---
 
 ## 📁 프로젝트 구조
+
+```text
 gooroome_project/
-├── activity_log.json # 수집된 사용자 활동 로그
-├── app_monitor.py # PC 활동 모니터링
-├── app_analyzer.py # 학습 행동 분석
-├── ml_predictor.py # 학습 성과 예측 모델
-├── ml_predictor_demo.py # 예측 데모 실행
-├── finish_api_server.py # API 서버
-├── client_fetch_result.js # 클라이언트 결과 요청
-├── main.py # 전체 실행 진입점
-├── requirements.txt # 의존 라이브러리
-└── README.md # 프로젝트 설명 문서
+├── activity_log.json        # 수집된 사용자 활동 로그
+├── app_monitor.py           # PC 활동 모니터링
+├── app_analyzer.py          # 학습 행동 분석
+├── ml_predictor.py          # 학습 성과 예측 모델
+├── ml_predictor_demo.py     # 예측 데모 실행
+├── finish_api_server.py     # API 서버
+├── client_fetch_result.js   # 클라이언트 결과 요청
+├── main.py                  # 전체 실행 진입점
+├── requirements.txt         # 의존 라이브러리
+└── README.md                # 프로젝트 설명 문서
+
 ---
 
 ## ⚙️ 시스템 동작 흐름
@@ -126,3 +129,4 @@ gooroome_project/
   - 로컬 PC 활동 모니터링 구현  
   - LLM 기반 학습 상태 분석  
   - 모델 통합 및 API 서버 구축
+
