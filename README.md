@@ -78,7 +78,7 @@ gooroome_project/
 ├── main.py                  # 전체 실행 진입점
 ├── requirements.txt         # 의존 라이브러리
 └── README.md                # 프로젝트 설명 문서
-
+   '''
 ---
 
 ## ⚙️ 시스템 동작 흐름
@@ -129,4 +129,5 @@ gooroome_project/
   - 로컬 PC 활동 모니터링 구현  
   - LLM 기반 학습 상태 분석  
   - 모델 통합 및 API 서버 구축
+
 
